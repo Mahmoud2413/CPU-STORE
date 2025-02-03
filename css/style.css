@@ -1,0 +1,162 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;}
+  body{font-family: Arial, Helvetica, sans-serif; height: auto; height: auto; }
+  #main{background-color: rgb(42, 42, 44); height: auto;}
+  .head{
+    background-color: rgba(26, 29, 29, 0.7); 
+    height: 50px; width: 100%;
+    position: fixed;
+    z-index: 100;
+  }
+  .head-sub{
+    list-style: none;
+    float: right;
+    margin-right: 20px;
+  }
+.fa-solid:hover{text-decoration: underline; color: blue;}
+.head-bg{
+  display: inline-block;
+    margin:13px 15px ;   font-size: 20px; text-transform: capitalize; color: white; 
+}
+.hi {font-size: 25px; margin: 10px  15px ; color: white} 
+.head-bg:hover{text-decoration: underline; color: blue;}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.home{width: 100%; height: 100vh; background:url(../imges/wall.jpg); background-size: cover; position: relative;}
+.home-overlay{
+  height: 100%; width: 100%; position: absolute; top: 0; left: 0; background-color: rgba(0, 0, 0, 0.5);
+} 
+.home-content{width: 40%; 
+position: absolute;
+top: 50%; left: 50%;
+transform: translate( -50% , -50%);
+text-align: center;}
+.home-title{color: white; font-size: 40px;  text-transform: uppercase;}
+.home-p{color:grey; margin: 20px 0px; font-size: larger; letter-spacing: 2px; text-transform: capitalize;}
+.home-btn{width: 150px; height: 50px; border: 0; border-radius: 5px; font-size: 20px; text-transform: capitalize; cursor: pointer;}
+.btn2{color: white; background-color: blue; margin-left: 5px;} 
+.home-btn:hover{opacity: 0.7;}
+.welcome-section{width: 100%; height: 100vh; background-color:rgb(236, 236, 236);}
+.welcome-title{text-align: center; font-weight: bold; font-size: 50px; text-transform: capitalize; color:rgb(143, 143, 143) ; padding: 5%;}
+.line{margin: auto; width: 250px; height: 3px; background-color: blue; margin-top: -80px;}
+.welcome-perant{overflow: auto; }
+.welcome-div1 , .welcome-div2 , .welcome-div3{
+    float: left;  height: 250px; width: 300px; border: 1px solid  darkblue;  text-align: center; border-radius: 10px; position: relative;}
+.welcome-div1{margin:100px  0px   0px   300px; } .welcome-div2{  margin: 100px 150px; } .welcome-div3{  margin-top: 100px; }
+.welcome-ic{ font-size: 30px; display: block; color: rgb(33, 33, 129); margin-top: 40px;}
+.welcome-title1{font-weight: bold; font-size: 30px; text-transform: capitalize; margin: 20px  0px; color: rgb(54, 100, 250); }
+.welcome-pra{font-size: 15px; word-spacing: 1px; margin: 20px  0px;  color:rgb(33, 33, 129) ;}
+.dowen{font-weight: bold; text-transform: uppercase; color: rgb(33, 33, 129) ; margin-top: 40px; text-decoration: none;}
+.welcome-div1:hover  .welcome-title1{color:rgb(95, 95, 95) }
+.welcome-div2:hover  .welcome-title1{color:rgb(95, 95, 95) }
+.welcome-div3:hover  .welcome-title1{color:rgb(95, 95, 95) }
+.welcome-div1:after{ content: "";  position: absolute; width: 0; height: 0; top: 0; left: 0;  transition: 2s; background-color: rgba(4, 0, 255, 0.5); }
+.welcome-div1:hover::after{width: 100%; height: 100%; transition: 1s; opacity: 0.5; cursor:pointer;} 
+.welcome-div2:after{content: ""; position: absolute;  width: 0; height: 0;  top: 0; left: 0;  transition: 2s; background-color: rgba(4, 0, 255, 0.5); }
+.welcome-div2:hover::after{width: 100%; height: 100%; transition: 1s; opacity: 0.5; cursor: pointer;} 
+.welcome-div3:after{content: "";  position: absolute;  width: 0; height: 0;  top: 0; left: 0;  transition: 2s; background-color: rgba(4, 0, 255, 0.5); }
+.welcome-div3:hover::after{width: 100%; height: 100%; transition: 1s; opacity: 0.5; cursor: pointer;} 
+.parent-1 , .parent-2 , .parent-3 , .parent-4{ height: 650px; width: 100%; display: flex; flex-direction: row; flex-wrap: wrap;  justify-content: space-evenly; align-content: center;}
+.top{height: 85% ; width: 22%;  text-align: center; transition: all 3s;}
+.offer{color: rgb(95, 95, 95); font-size: 16px; font-weight: bold;text-transform: capitalize; padding: 10px; opacity: 0; line-height: 25px;}
+.div-1{height: 85%; width: 85%; background-image: url(../imges/iphon13.jpg); background-size: cover; }
+.div-2{height: 85%; width: 85%; background-image: url(../imges/iphon13\ pro.jpg); background-size: cover; }
+.div-3{height: 85%; width: 87%; background-image: url(../imges/iphon\ 13\ pro\ max.jpg); background-size: cover; }
+.div-4{height: 85%; width: 85%; background-image: url(../imges/WhatsApp\ Image\ 2025-01-11\ at\ 23.08.07_835cf6c8.jpg); background-size: cover; }
+.div-5{height: 85%; width: 85%; background-image: url(../imges/iphon\ 14.jpg); background-size: cover; }
+.div-6{height: 85%; width: 85%; background-image: url(../imges/iphon\ 14\ \ pro.jpg); background-size: cover; }
+.div-7{height: 85%; width: 87%; background-image: url(../imges/iphon14\ pro\ max.jpg); background-size: cover; }
+.div-8{height: 85%; width: 85%; background-image: url(../imges/iphon\ 14\ plus.jpg); background-size: cover; }
+.div-9{height: 85%; width: 85%; background-image: url(../imges/iphon\ 15\ .jpg); background-size: cover; }
+.div-10{height: 85%; width: 90%; background-image: url(../imges/iphon\ 15\ pro.jpg); background-size: cover; }
+.div-11{height: 85%; width: 90%; background-image: url(../imges/iphon\ 15\ pro\ max.jpg); background-size: cover; }
+.div-12{height: 85%; width: 85%; background-image: url(../imges/iphon\ 15\ plus.jpg); background-size: cover; }
+.div-13{height: 85%; width: 90%; background-image: url(../imges/iphon\ 16.jpg); background-size: cover; }
+.div-14{height: 85%; width: 90%; background-image: url(../imges/iphon\ 16\ pro.jpg); background-size: cover; }
+.div-15{height: 85%; width: 90%; background-image: url(../imges/iphon\ 16\ pro\ max.jpg); background-size: cover; }
+.div-16{height: 85%; width: 90%; background-image: url(../imges/iphon\ 16\ plus.jpg); background-size: cover; }
+.top:hover .offer{opacity: 1; transition: 3s; text-shadow: 1px 1px 10px  black;} 
+#we{background: url(../imges/wp2555244.jpg) no-repeat fixed;  background-size: cover;}
+#exs{background: url(../imges/team.jpg) no-repeat fixed;  background-size: cover;}
+.trend{font-size: 40px; color: black;  text-align: center; padding: 100px  50px;  }
+.trend-parent{display: flex; flex-flow: row,wrap; justify-content: space-evenly; align-items: center; width: 100%; }
+.trend-img{height: 600px; width: 20%; text-align: center;font-size: 20px; color: rgb(155, 155, 155); transition: all 1s; }
+.trend-but{height: 50px; width: 50%; display: flex;flex-flow: row,wrap; justify-content: flex-start; align-items: center;  position: absolute;background-color: white; top: 70%; left: 50%; transform: translate(-50%,-50%); z-index: 2; opacity: 0; transition: 1s;}
+.icon{height: 100%; width: 35%; background-color: white; }
+.trend-ic{font-size: 30px; margin-top: 10px; font-weight: bold; color: black; opacity: 0.3;}
+.icon:hover{background-color: black;}
+.icon:hover .trend-ic{opacity: 1; color: white;}
+.men-1{background-image: url(../imges/men-1.jpg);background-size: cover;}
+.men-2{background-image: url(../imges/men-2.jpg);background-size: cover;}
+.men-3{background-image: url(../imges/men-3.jpg);background-size: cover;}
+.men-4{background-image: url(../imges/men-4.jpg);background-size: cover;}
+.men-5{background-image: url(../imges/men-5.jpg);background-size: cover;}
+.men-6{background-image: url(../imges/men-6.jpg);background-size: cover;}
+.men-7{background-image: url(../imges/men-7.jpg);background-size: cover;}
+.men-8{background-image: url(../imges/men-8.jpg);background-size: cover;}
+.men-9{background-image: url(../imges/men-9.jpg);background-size: cover;}
+.face-pra{font-size: 20px; font-weight: bold; line-height: 30px; }
+.trend-org , .trend-face , .fash{height: 85%; width: 95%;  }
+.fash{transform-style: preserve-3d; position: relative; transition: all 1s; margin: 0% 2.5%;}
+.trend-org , .trend-face{position: absolute;}
+.trend-org{z-index: 1; backface-visibility: hidden;}
+.trend-face{background-color: rgb(128, 128, 128); color: white; text-align: center;  transform: rotatey(180deg); }
+.trend-img:hover .fash{transform: rotateY(180deg);}
+.trend-del{text-decoration: line-through;} .trend-pra{transition: 1s;}
+.trend-img:hover{cursor: pointer;}
+.trend-img:hover .trend-but{opacity: 1; transition: 2s;}
+.trend-title{margin: -50px 0px 20px 0px ; font-size: 25px;transition: 1s;}
+.trend-img:hover .trend-title{color: black; font-size: 30px;}
+.trend-img:hover .trend-pra{color: black; font-size: 25px; font-weight: bold;}
+#pric{background: url(../imges/price.jpg) no-repeat fixed;  background-size: cover;}
+.price-section{height: 100vh; width: 100%;}
+.price-perant{overflow: auto; height: 80vh;}
+.price-left,.price-center,.price-right{float: left; height: 450px; width: 20%; border: 1px solid darkblue; border-radius: 20px; text-align: center; position: relative;}
+.price-left{margin: 100px 0px  0px 300px; } .price-center{margin: 100px  100px;} .price-right{margin-top: 100px;}
+.price-title{padding-top: 30px; color: blue; font-size: 30px; font-weight: bold; text-transform: uppercase;}
+.price-pra{color: rgb(0, 0, 0); font-size: 30px;  text-transform: uppercase; word-spacing: 2px; padding: 10px  10px 10px 30px; }
+.price-cercle{height: 180px; width: 180px; border: 1px solid rgb(255, 255, 255); border-radius: 50%; margin: auto; padding: 10px 10px;}
+.sm-pra{color: black; font-size: 30px; font-weight: bold; text-transform: uppercase; padding-top: 5px;}
+.price{font-size: 50px; font-weight: bold; color: rgb(0, 93, 168); padding-top: 10px;}
+.price-put{width: 150px; height: 50px; border-radius: 5px; font-size: 20px; color: darkblue; font-weight: bold;}
+.price-left:hover .price-title{color: white; } .price-center:hover .price-title{color: white; } .price-right:hover .price-title{color: white; }
+.price-left:hover .price-pra{color: blue;} .price-center:hover .price-pra{color: blue;} .price-right:hover .price-pra{color: blue;}
+.price-left:hover .price-cercle{background-color: rgba(0, 0, 0, 0.705); border: 3px solid blue; }
+.price-center:hover .price-cercle{background-color: rgba(0, 0, 0, 0.705); border: 3px solid blue; }
+.price-right:hover .price-cercle{background-color: rgba(0, 0, 0, 0.705); border: 3px solid blue; }
+.price-left:hover .price-put{background-color: blue; color: white;} .price-center:hover .price-put{background-color: blue; color: white;} .price-right:hover .price-put{background-color: blue; color: white;}
+.price-left:after{content: ""; position: absolute; width: 100%; height: 0; top: 0; left: 0; background-color: rgba(4, 0, 255, 0.5); transition: 2s; border-radius: 20px; cursor: pointer;}
+.price-left:hover::after{width: 100%; height: 100%; opacity: 0.7; transition: 1s;}
+.price-center:after{content: ""; position: absolute; width: 100%; height: 0; top: 0; left: 0; background-color: rgba(4, 0, 255, 0.5); transition: 2s; border-radius: 20px; cursor: pointer;}
+.price-center:hover::after{width: 100%; height: 100%; opacity: 0.7; transition: 1s;}
+.price-right:after{content: ""; position: absolute; width: 100%; height: 0; top: 0; left: 0; background-color: rgba(4, 0, 255, 0.5); transition: 2s; border-radius: 20px; cursor: pointer;}
+.price-right:hover::after{width: 100%; height: 100%; opacity: 0.7; transition: 1s;}
+#team{background: url(../imges/team.jpg) no-repeat  fixed; background-size: cover;}
+.conten{margin-top: 50px; }
+.icon-parent{height: 300px; width: 100%; display: flex; flex-flow: row,wrap; justify-content: space-evenly; align-items: center;}
+.icn{height: 100%; width: 25%; text-align: center;}
+.icon-tit{font-size: 30px; margin: 20px; }
+.icon-pra{font-size: 20px; color: rgb(97, 97, 97);}
+.hed-icn{font-size: 50px; opacity: 0.5; transition: 0.1s; }
+.icn:hover .hed-icn{opacity: 1; transform: rotatex(360deg); transition: 0.1s;}
+.end-section{width: 100%; height: 350px; background-color: rgb(71, 71, 71); padding-top: 20px; text-align: center;}
+.end-img{width: 350px; height: 200px; background-image: url(../imges/CPU.jpg); background-size: cover; border-radius: 10px; margin: 20px  auto; }
+.end-perant{overflow: auto;}
+.end-ic{float: left; width: 65px; height: 65px; border-radius: 50%; background-color: rgba(4, 0, 255, 0.7);  margin: auto; opacity: 0.3;}
+.first-ic{margin: 0px  0px  5px  730px;} .second-ic{margin: 0 5;}
+.big-ic{font-size: 30px; margin-top: 15px; color: white;}
+.end-ic:hover{opacity: 1; transition: 1s; }
+.end-pra{font-size: 12px; font-weight: bold; padding-top: 10px; }
+#dsl{background-image: url(../imges/team.jpg); background-size: cover;}
+.man{text-align: center; font-weight: bold; font-size: 50px; text-transform: capitalize; color:rgb(255, 255, 255) ; padding: 5%;}
+.len{margin: auto; width: 250px; height: 3px; background-color: rgb(155, 155, 155); margin-top: -80px;}
+.dev-1{height: 60%; width: 100%; background-image: url(../imges/الشاشه.jpg); background-size: cover; }
+.dev-2{height: 60%; width: 100%; background-image: url(../imges/بطاريه.jpg); background-size: cover; }
+.dev-3{height: 60%; width: 100%; background-image: url(../imges/النظام.jpg); background-size: cover; }
+.dev-4{height: 60%; width: 100%; background-image: url(../imges/كاميرا.jpg); background-size: cover; }
+.dev-5{height: 60%; width: 100%; background-image: url(../imges/encyclopedia-مكونات-الهاتف-الذكي.jpg); background-size: cover; }
+.dev-6{height: 60%; width: 100%; background-image: url(../imges/كيفية-اصلاح-الصوت-في-الهاتف-من-خلال-الفحص.jpg); background-size: cover; }
+.dev{background-color: rgb(24, 24, 26); }
+.berant{height: 850px; width: 100%; display: flex; flex-direction: row; flex-wrap: wrap;  justify-content: space-evenly; align-content: center;}
+.hoda{color: white; font-size: 30px; padding: 10px ;}
+.hmada{opacity: 1; color: rgb(173, 172, 172);}

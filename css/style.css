@@ -12,12 +12,12 @@
   .head-sub{
     list-style: none;
     float: right;
-    margin-right: 20px;
+    margin-right: 500px;
   }
 .fa-solid:hover{text-decoration: underline; color: blue;}
 .head-bg{
   display: inline-block;
-    margin:13px 15px ;   font-size: 20px; text-transform: capitalize; color: white; 
+    margin:13px 25px ;   font-size: 30px; text-transform: capitalize; color: white; 
 }
 .hi {font-size: 25px; margin: 10px  15px ; color: white} 
 .head-bg:hover{text-decoration: underline; color: blue;}
@@ -28,7 +28,7 @@
 } 
 .home-content{width: 40%; 
 position: absolute;
-top: 50%; left: 50%;
+top: 60%; left: 50%;
 transform: translate( -50% , -50%);
 text-align: center;}
 .home-title{color: white; font-size: 40px;  text-transform: uppercase;}
